@@ -14,3 +14,5 @@
 </footer>
 </body>
 </html>
+
+<!-- simulasi Laptop A -->
