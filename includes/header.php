@@ -14,11 +14,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <header class="site-header">
     <div class="container nav-wrap">
         <a class="brand" href="index.php">
-            <span class="brand-mark">TU</span>
-            <span>
-                <strong>Telkom University</strong>
-                <small>Simulasi Company Profile</small>
-            </span>
+            <span><img src="images/logo.png" alt="logo telyu" width="120" height="40"></span>
         </a>
         <nav class="main-nav" aria-label="Navigasi utama">
             <a class="<?= $currentPage === 'index.php' ? 'active' : '' ?>" href="index.php">Beranda</a>
